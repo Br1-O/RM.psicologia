@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+
+@tailwind utilities;
+
+html,
+body,
+:root {
+    height: 100%;
+    --primary: #3d1977;
+    --secondary: #d7bcff;
+    --third: #e8d8ff;
+    background-color: var(--secondary);
+}
