@@ -10,7 +10,7 @@ interface TextCentralContainerProps {
 
 const TextCentralContainer = ({children, showVines = false, href = ''} : TextCentralContainerProps) => {
     return (
-        <div className="relative max-w-90% md:max-w-[50dvh] lg:max-w-4xl mx-auto pt-5 lg:pt-0 px-4">
+        <div className="relative max-w-90% md:max-w-[50dvh] lg:max-w-4xl mx-auto pt-5 lg:pt-0 px-2 md:px-0 lg:px-4">
             {/* Back rectangle */}
             <div
                 className="
